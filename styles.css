@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+body {
+    background-image: url('./Índice-de-Massa-Corporal-scaled-1.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 80%;
+    width: 370px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Rowdies', cursive;
+    color: white;
+    text-align: center;
+}
+
+.form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-family: 'Rowdies', cursive;
+    color: white;
+    width: 100%;
+}
+
+input {
+    display: block;
+    width: 95%;
+    margin-bottom: 20px;
+    height: 20px;
+    padding: 0px 5px;
+    font-family: 'Rowdies', cursive;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+    margin-top: 20px;
+    width: 50%;
+    height: 35px;
+    font-family: 'Rowdies', cursive;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: solid black;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    color: white;
+    background-color: black;
+    border: solid white;
+}
+
+#result {
+    font-family: 'Rowdies', cursive;
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 90%;
+    font-size: 17px;
+}
